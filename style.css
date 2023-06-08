@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+.bcg{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(60deg, #0000FF, #e4a3ae, #FF1493);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do-list{
+    width: 40%;
+    background-color: rgb(37, 36, 48);
+    border-radius: 7px;
+    padding: 30px 20px;
+}
+
+.to-do-list-title{
+    font-size: 20px;
+}
+
+.add-item-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    width: 100%;
+    font-size: 16px;
+    background: none;
+    border: none;
+    border-bottom: 2px white solid;
+    outline: none;
+}
+
+.add-but{
+    width: 50px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: #e4a3ae;
+    font-size: 20px;
+    box-shadow: 0 0 5px white;
+}
+
+/* task */
+.task{
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(58, 56, 95);
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.checkbox:checked{
+    background-color: #e4a3ae;
+    box-shadow: 0 0 5px #e4a3ae;
+}
+
+.text{
+    padding-left: 10px;
+}
+
+.taie{
+    text-decoration: line-through;
+    color: rgb(159, 155, 155);
+    text-shadow: 0 0 5px #e4a3ae;
+}
+
+.delImg{
+    width: 25px;
+    height: 25px;
+}
+
+.add-but, .delImg, .checkbox{
+    cursor: pointer;
+}
